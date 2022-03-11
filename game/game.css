@@ -1,0 +1,299 @@
+@font-face { 
+    font-family: 'Arcade';
+    src: url("./invasion2000.regular.ttf") format("truetype");
+}
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-width: 1400px;
+    min-height: 900px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Arcade';
+}
+
+button {
+    background-color: #ced1d4;
+    border: none;
+    color: #13284c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arcade';
+}
+
+p{
+    width: 200px;
+}
+
+button:hover{
+    background-color: lightyellow;
+}
+
+
+#display{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#display > div { 
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#notifications > div {
+    text-align:center;
+    margin-bottom: 2%;
+}
+
+#prompt-main{ 
+    color: #13284c;
+    margin: 0;
+    padding: 10px;
+    font-family: Arcade;
+    font-size: 40px;
+}
+
+
+
+#view-gameboard-top {
+    display:flex;
+    justify-content: center;
+}
+
+#view-gameboard-bottom{
+    display:flex;
+    justify-content: center;
+}
+
+#view-gameboard-top > table{
+    background-color: #ced1d4;
+}
+
+#view-gameboard-left-header > table{
+    background-color: #ced1d4;
+}
+
+#cross-activate{
+    display: none;
+}
+#username{
+    color: lightseagreen;
+}
+
+#name-container{
+    display:block;
+    text-align: center;
+}
+
+#name-container > div{
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100px;
+}
+
+
+#ships-remain-container{
+    display:block;
+    text-align: center;
+}
+
+#ships-remain-container > div{
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100px;
+}
+
+
+#game-info {
+    text-align: center;
+    width: 300px;
+}
+
+#game-info > *{
+    margin-bottom: 20px;
+}
+
+
+
+#targets-gameboard-top {
+    display:flex;
+    justify-content: center;
+}
+
+#targets-gameboard-bottom{
+    display:flex;
+    justify-content: center;
+}
+
+#targets-gameboard-top > table{
+    background-color:#ced1d4;
+}
+
+#targets-gameboard-left-header > table{
+    background-color: #ced1d4;
+}
+
+
+td {    
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+
+
+#docks {
+    display: flex;
+    padding: 1em;
+    text-align: center;
+    justify-content:center;
+}
+
+
+.vw-taken, .ts-taken {
+    background-color: lightslategray;
+}
+
+
+#player-dock { 
+    display: flex;
+}
+
+
+#rotate {
+    width: 100px;
+    height: 75px;
+    margin: 20px;
+}
+
+
+.ships-container{
+    display:flex;
+    width: 300px;
+}
+
+.ships-container-horizontal{
+    display:block;
+}
+
+
+
+.carrier-container {
+    height: 200px;
+    width: 40px;
+    background-color: lightslategray;;
+    margin: 10px;
+}
+
+.carrier-container-horizontal{
+    height: 40px;
+    width: 200px;
+    background-color: lightslategray;;
+    margin: 10px;
+    display: flex;
+}
+
+.carrier-container > div{
+   
+    width: 40px;
+    height: 40px;
+}
+
+
+.battleship-container {
+    height: 160px;
+    width: 40px;
+    margin: 10px;
+}
+
+.battleship-container-horizontal {
+    height: 40px;
+    width: 160px;
+    margin: 10px;
+    display:flex;
+}
+
+
+.battleship-container > div{
+    background-color: lightslategray;;
+    width: 40px;
+    height: 40px;
+}
+
+
+.destroyer-container {
+    height: 120px;
+    width: 40px;
+    margin: 10px;
+}
+
+.destroyer-container-horizontal{
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    display: flex;
+}
+
+.destroyer-container > div{
+    background-color: lightslategray;;
+    width: 40px;
+    height: 40px;
+}
+
+
+.submarine-container {
+    height: 120px;
+    width: 40px;
+    margin: 10px;
+}
+
+.submarine-container-horizontal {
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+}
+
+.submarine-container > div{
+    background-color:lightslategray;;
+    width: 40px;
+    height: 40px;
+}
+
+.patrolboat-container {
+    height: 80px;
+    width: 40px;
+    margin: 10px;
+}
+
+.patrolboat-container-horizontal {
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    display: flex;
+}
+
+.patrolboat-container > div{
+    background-color: lightslategray;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+

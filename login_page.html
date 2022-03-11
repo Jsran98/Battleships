@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+<meta charset = "UTF-8">
+<title>Login</title>
+
+
+
+<style>
+    
+
+body{
+  background-color: white;
+}
+
+
+input, button{
+  display: block;
+  border:none;
+  background:rgba(1, 1, 1, 0.5);
+  color: blue;
+
+  font-size: 35px;
+  margin: 0 auto;
+  width: 100%;
+
+  text-align: center;
+}
+
+
+
+#submit:hover{
+  background-color: #13284c;
+  color: white;
+}
+
+#login{
+  text-align:center;
+  background:rgba(1, 1, 1, 0.2);
+  display: inline-block;
+  
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+ transform: translate(-50%,-50%);
+  
+}
+
+#title {
+  border: 1px solid white;
+  font-size: 100px;
+  margin:0;
+  padding: 0;
+  color: white;
+
+}
+
+button{
+  background-color: #ced1d4;
+    border: none;
+    color: #13284c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<div id = "login">
+  <h1 id = "title">Player Login</h1>
+  <form action = "login.php" method = "post">
+      <label for = "username"></label>
+      <input type = "text" id = "username" name = "username" placeholder = "Username">
+      <label for = "password"></label>
+      <input type = "password" id = "password" name = "password" placeholder = "Password">
+      <input id = "submit" type = "submit" value = "Login">
+  </form>
+  <a href="index.php"><button id = "homeButt" type="button">Back to Menu</button></a>
+</div>
+<br>
+</body>
+
+
+
+
+
+</body>
+
+</html>

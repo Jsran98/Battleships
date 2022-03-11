@@ -1,0 +1,33 @@
+table{
+    font-size: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    font-size: 60px;
+    color: white;
+}
+td{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #13284c;
+}
+
+button{
+    margin: 10px;
+    color: #13284c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#tableDiv{
+    text-align:center;
+      background:rgba(1, 1, 1, 0.2);
+      display: inline-block;
+      position: fixed;
+      top:50%;
+      left:50%;
+      margin-top:-50px;
+     transform: translate(-50%,-50%);
+} 
